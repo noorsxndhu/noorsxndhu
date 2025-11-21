@@ -1,4 +1,4 @@
-import { Moon, Sun } from "lucide-react";
+import { MoonStar, Sun } from "lucide-react";
 import { useEffect, useState } from "react"
 
 export default function Themetoggle() {
@@ -30,8 +30,8 @@ export default function Themetoggle() {
 
     return (
         <>
-            <button onClick={toggletheme} className="fixed right-5 top-5 ">
-                {isDarkMode ? <Sun className="h-6 w-10 text-yellow-300" /> : <Moon className="h-6 w-10 text-dark-900" />}
+            <button onClick={toggletheme} className="themetoggle">
+                {isDarkMode ? <Sun className="h-6 w-10 text-white-300" /> : <MoonStar className="h-6 w-10 text-dark-900" />}
             </button>
         </>
     )

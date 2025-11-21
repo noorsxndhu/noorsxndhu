@@ -1,17 +1,17 @@
 import StarBackground from "@/components/StarBackground";
 import Themetoggle from "@/components/ThemeToggle";
-
+import Navbar from "../components/NavBar";
 
 export default function Home() {
     return (
         <div className="min-h-screen ">
 
             {/* Theme toggle */}
-            <Themetoggle />
+            
             {/* Background effects */}
             <StarBackground />
             {/*  Navbar */}
-
+            <Navbar/>
             {/*  Hero */}
 
             {/*  About */}
