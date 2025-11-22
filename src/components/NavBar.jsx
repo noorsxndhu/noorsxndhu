@@ -24,13 +24,11 @@ export default function Navbar() {
 
                 <p>|</p>
 
-                <StickyNote className="icons" />
-
                 <a href="https://github.com/noorsxndhu"><Github className="icons" /></a>
 
                 <a href="https://x.com/noorsxndhu"><Twitter className="icons" /></a>
 
-               <a href="https://www.linkedin.com/in/noorsandhu157/"> <Linkedin className="icons" /></a>
+                <a href="https://www.linkedin.com/in/noorsandhu157/"> <Linkedin className="icons" /></a>
 
                 <p>|</p>
 
