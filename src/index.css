@@ -217,13 +217,16 @@
 
 
   .icons {
-    @apply px-[3px]
+    @apply px-[3px] 
+    
   }
 
   .icons:hover {
     @apply px-[1px]
+    
   }
 
+  
   /* .themetoggle{
     @apply 
   } */
@@ -245,7 +248,7 @@
 
 @layer base {
   * {
-    @apply border-border;
+    @apply border-border; 
   }
 
   body {

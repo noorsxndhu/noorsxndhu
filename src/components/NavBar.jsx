@@ -5,16 +5,15 @@ export default function Navbar() {
 
     return (
         <>
-            <div className="w-[800px] 
-             mt-3 py-[12px] px-[150px]
+            <div className="w-[850px] 
+             mt-5 py-[12px] px-[150px]
             border rounded-3xl
             flex fixed 
             left-1/2 -translate-x-1/2 
-            sticky-top justify-center justify-between 
-            backdrop-blur-xl bg-white/10
-            border border-white/20 
-            shadow-lg p-3
-            scroll-smooth"
+            justify-center justify-between 
+            backdrop-blur-sm bg-white/10 
+            shadow-md p-3
+            z-50"
             >
                 <House className="icons" />
 

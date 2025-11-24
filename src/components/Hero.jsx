@@ -5,14 +5,25 @@ export default function Hero() {
     return (
         <>
 
-            <div className="flex  absolute  left-1/2 -translate-x-1/2 translate-y-[175px] ">
-                <div className=" pl-[20px] mr-[30px] ">
-                    <h1 className="font-[bricolage] text-6xl font-bold font-black tracking-tight text-center pt-[1px]">Hi, I'm Gurnoor </h1>
-                    <p className="font-[inter] text-stone-400 relative text-start pt-[2px]" > – Software Engineer</p>
+            <div className="flex flex-wrap relative w-full justify-center ">
 
+                {/* Hero  section*/}
+
+                {/* Hero heading */}
+                <div className=" pt-[260px]">
+                    <div>
+                        <h1 className="font-[bricolage]  text-7xl font-bold font-black font-stretch-expanded">Hi, I'm Gurnoor </h1>
+                    </div>
+
+                    {/* Hero subheading */}
+                    <div>
+                        <p className="font-[inter] text-stone-400 text-start" > – Software Engineer</p>
+                    </div>
                 </div>
-                <div>
-                    <img src={myPic} className="h-[100px] w-[100px]  rounded-full relative " />
+
+                {/* Hero image */}
+                <div className="pt-[260px] pl-[50px]">
+                    <img src={myPic} className="h-[110px] w-[110px]  rounded-full relative " />
                 </div>
 
             </div>
