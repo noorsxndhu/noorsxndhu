@@ -7,11 +7,12 @@ import Skills from "@/components/Skills";
 import Contribution from "@/components/github";
 import About from "@/components/About";
 import Projects from "@/components/Projects";
+import Contactform from "@/components/Contactform";
 
 
 export default function Home() {
     return (
-        <div className="min-h-screen ">
+        <div className="min-h-screen">
 
             {/* Theme toggle */}
 
@@ -37,6 +38,7 @@ export default function Home() {
             <Contribution/>
 
             {/*  Contact */}
+            <Contactform/>
 
             {/*  Footer */}
 
