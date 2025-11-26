@@ -8,6 +8,7 @@ import Contribution from "@/components/github";
 import About from "@/components/About";
 import Projects from "@/components/Projects";
 import Contactform from "@/components/Contactform";
+import Footer from "@/components/footer";
 
 
 export default function Home() {
@@ -26,21 +27,22 @@ export default function Home() {
             <Hero />
 
             {/*  About */}
-            <About/>
+            <About />
 
             {/*  Skills */}
             <Skills />
 
             {/*  Projects */}
-             <Projects/>
+            <Projects />
 
             {/*  Github */}
-            <Contribution/>
+            <Contribution />
 
             {/*  Contact */}
-            <Contactform/>
+            <Contactform />
 
             {/*  Footer */}
+            <Footer />
 
         </div>
     )
