@@ -2,13 +2,12 @@ import StarBackground from "@/components/StarBackground";
 import Themetoggle from "@/components/ThemeToggle";
 import Navbar from "../components/NavBar";
 import Hero from "@/components/Hero";
-
 import Skills from "@/components/Skills";
-import Contribution from "@/components/github";
 import About from "@/components/About";
 import Projects from "@/components/Projects";
 import Contactform from "@/components/Contactform";
 import Footer from "@/components/footer";
+import Github from "@/components/github";
 
 
 export default function Home() {
@@ -18,31 +17,31 @@ export default function Home() {
             {/* Theme toggle */}
 
             {/* Background effects */}
-            <StarBackground />
+            <StarBackground/>
 
             {/*  Navbar */}
-            <Navbar />
+            <Navbar/>
 
             {/*  Hero */}
-            <Hero />
+            <Hero/>
 
             {/*  About */}
-            <About />
+            <About/>
 
             {/*  Skills */}
-            <Skills />
+            <Skills/>
 
             {/*  Projects */}
-            <Projects />
+            <Projects/>
 
             {/*  Github */}
-            <Contribution />
+            <Github/>
 
             {/*  Contact */}
-            <Contactform />
+            <Contactform/>
 
             {/*  Footer */}
-            <Footer />
+            <Footer/>
 
         </div>
     )

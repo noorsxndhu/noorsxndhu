@@ -73,6 +73,7 @@
   }
 }
 
+
 /* BASE */
 @layer base {
   :root {
@@ -214,7 +215,6 @@
   .animate-pulse-subtle {
     animation: pulse-subtle 6s ease-in-out infinite;
   }
-
 
   .icons {
     @apply px-[3px] 
