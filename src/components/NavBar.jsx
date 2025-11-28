@@ -1,19 +1,18 @@
-import { Github, House, Linkedin, SeparatorVertical, StickyNote, Twitter, User } from "lucide-react";
+import { Github, House, Linkedin, SeparatorVertical, Twitter, User } from "lucide-react";
 import Themetoggle from "./ThemeToggle";
 
 export default function Navbar() {
 
     return (
         <>
-            <div className="w-full max-w-[400px] sm:max-w-[550px] md:max-w-[700px] lg:max-w-[850px]
-             mt-5 py-3 px-12 sm:px-36 md:px-36 lg:px-36
-            border rounded-3xl
-            flex fixed 
-            left-1/2 -translate-x-1/2 
-            justify-center justify-between 
-            backdrop-blur-sm bg-white/10 
-            shadow-md 
-            z-50"
+            <div className="
+            fixed left-1/2 -translate-x-1/2 mt-5 mx-0.5 z-50
+        flex items-center justify-between
+        backdrop-blur-sm bg-white/10 shadow-md
+
+        w-full max-w-[850px]
+         px-16 sm:px-24 md:px-48  lg:px-40 py-2  sm:py-3 md:py-4 
+        rounded-3xl"
             >
 
                 <button onClick={() => {
