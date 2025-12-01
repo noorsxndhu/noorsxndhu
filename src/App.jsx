@@ -1,8 +1,9 @@
-import { useState } from 'react'
+
 import {BrowserRouter,Routes,Route} from "react-router-dom";
 import './index.css'
-import Notfound from './pages/notfound.jsx'
-import Home from './pages/home.jsx'
+
+import Home from "./pages/home.jsx";
+import Notfound from "./pages/notfound.jsx";
 
 
 function App() {

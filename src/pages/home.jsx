@@ -1,12 +1,12 @@
-import StarBackground from "@/components/StarBackground";
-import Navbar from "../components/NavBar";
-import Hero from "@/components/Hero";
-import Skills from "@/components/Skills";
-import About from "@/components/About";
-import Projects from "@/components/Projects";
-import Contactform from "@/components/Contactform";
-import Footer from "@/components/footer";
-import Github from "@/components/github";
+import StarBackground from "@/components/StarBackground.jsx";
+import Navbar from "../components/NavBar.jsx";
+import Hero from "@/components/Hero.jsx";
+import Skills from "@/components/Skills.jsx";
+import About from "@/components/About.jsx";
+import Projects from "@/components/Projects.jsx";
+import Contactform from "@/components/Contactform.jsx";
+import Footer from "@/components/footer.jsx";
+
 
 
 export default function Home() {

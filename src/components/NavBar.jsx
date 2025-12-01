@@ -1,5 +1,5 @@
 import { Github, House, Linkedin, SeparatorVertical, Twitter, User } from "lucide-react";
-import Themetoggle from "./ThemeToggle";
+import Themetoggle from "./ThemeToggle.jsx";
 
 export default function Navbar() {
 
