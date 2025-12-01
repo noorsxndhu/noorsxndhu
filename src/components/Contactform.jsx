@@ -36,10 +36,10 @@ export default function Contactform() {
     return (
         <section id="contactsection" >
             <form onSubmit={handleSubmit} className="flex flex-col  pt-16 sm:pt-20 md:pt-24 lg:pt-24 items-center ">
-                <h1 className="font-[bricolage] font-bold text-3xl sm:text-3xl md:text-4xl lg:text-4xl justify-center">Get in touch</h1>
+                <h1 className="font-[bricolage] relative font-bold text-3xl sm:text-3xl md:text-4xl lg:text-4xl justify-center">Let's connect</h1>
 
                 <div className="grid gap-1 justify-center  pt-6">
-                    <label className="relative  font-[bricolage] text-base sm:text-base md:text-base lg:text-base pl-0.5">Your Name</label>
+                    <label className="relative  font-[bricolage] text-base text-start sm:text-base md:text-base lg:text-base pl-0.5">Your Name</label>
 
                     <input
                         type="name"
