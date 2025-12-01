@@ -2,7 +2,7 @@ export default function About() {
     return (
         <div className="relative pt-10 px-4 sm:px-6 md:px-10">
             <div className="pt-1">
-                <p className="text-base text-center font-sans font-medium text-sm sm:text-sm md:text-base ">18 , CSE student , MERN developer , Curious mind . My work <br/> revolves around building modern,scalable web applications, loves to listen music in leisure time. <br/>Looking forward to do freelancing.
+                <p className="text-base text-center font-sans font-medium text-sm sm:text-sm md:text-base ">18 , CSE student , MERN developer , Curious mind .My<br/>work  revolves around building modern,scalable web applications, loves to listen music in leisure time. <br/>Looking forward to do freelancing.
                 </p>
 
             </div>
