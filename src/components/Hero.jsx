@@ -12,7 +12,7 @@ export default function Hero() {
                 {/* Hero heading */}
                 <div className="pt-64 sm:pt-64 md:pt-64">
                     <div>
-                        <h1 className="font-[bricolage]  text-4xl sm:text-5xl md:text-6xl font-bold font-black font-stretch-expanded">Hi, I'm Noo </h1>
+                        <h1 className="font-[bricolage]  text-4xl sm:text-5xl md:text-6xl font-bold font-black font-stretch-expanded">Hi, I'm Noor</h1>
                     </div>
 
                     {/* Hero subheading */}

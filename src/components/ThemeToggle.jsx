@@ -31,7 +31,7 @@ export default function Themetoggle() {
     return (
         <>
             <button onClick={toggletheme} className="themetoggle">
-                {isDarkMode ? <Sun className="h-6 w-10 text-white-300" /> : <MoonStar className="h-6 w-10 text-dark-900" />}
+                {isDarkMode ? <Sun className="h-4 w-5 text-white-300" /> : <MoonStar className="h-5 w-6 text-dark-900" />}
             </button>
         </>
     )

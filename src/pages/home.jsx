@@ -6,6 +6,7 @@ import About from "@/components/About.jsx";
 import Projects from "@/components/Projects.jsx";
 import Contactform from "@/components/Contactform.jsx";
 import Footer from "@/components/footer.jsx";
+import Github from "@/components/Github.jsx";
 
 
 
